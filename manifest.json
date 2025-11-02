@@ -1,0 +1,46 @@
+{
+  "id": "hacli/index.html",
+  "name": "HaCli",
+  "short_name": "HaCli",
+  "description": "Aplicación de gestión de portapapeles y tareas.",
+  "start_url": "/hacli/?aGFuZXI=",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "orientation": "portrait",
+  "lang": "es-CO",
+  "scope": "/Hacli",
+  "icons": [
+    {
+      "src": "favicons/save-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "favicons/save-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicons/save-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/mobile-home.png",
+      "sizes": "360x720",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Inicio en móvil"
+    },
+    {
+      "src": "screenshots/desktop-home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Inicio en escritorio"
+    }
+  ]
+}
