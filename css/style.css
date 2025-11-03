@@ -1179,3 +1179,7 @@ i.fa-circle-down {
   margin-top: 0em;
   font-size: 1em;
 }
+
+.oculto {
+  visibility: hidden;
+}
