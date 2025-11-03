@@ -1001,7 +1001,7 @@ textarea#buscador {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e6ecf4;
+  background: #3e95f9;
   color: #707070 !important;
   cursor: default;
 }
@@ -1011,7 +1011,7 @@ textarea#buscador {
 }
 
 .blanco {
-  color: #5c5c5c;
+  color: #F2F7FE;
 }
 
 .acciones-title {
