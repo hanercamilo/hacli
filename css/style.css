@@ -1479,7 +1479,7 @@ screen and (max-width: 640px) {
 
   .encabezado .textTitle {
     margin-left: 7em !important;
-    margin-right: auto;
+    margin-right: 2em;
   }
 
   .iBuscador {
