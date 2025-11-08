@@ -1,6 +1,7 @@
 :root {
   --size-things-full: 70%;
   --blue-color-principal: #0a95ff;
+  --red-color-principal: #E1476A;
   --actions-margin-right: 17%;
 }
 
@@ -293,7 +294,7 @@ i.fa-solid.fa-newspaper {
 }
 
 i.fa-solid.fa-earth-americas {
-  color: #e1476a;
+  color: var(--red-color-principal);
   font-size: 1.5em;
   margin-left: 1.5em;
   margin-top: 1.3em;
@@ -399,7 +400,7 @@ div.content {
 
 .imprimir {
   text-align: right;
-  background: #2196f3;
+  background: var(--blue-color-principal);
   box-shadow: 0px 4px 5px 7px #b9b8b833;
   padding: 0.2em 1em 0.2em 1em;
   border-radius: 0.5em;
@@ -450,7 +451,7 @@ div.content {
   margin-top: -5em;
   cursor: pointer !important;
   position: absolute;
-  margin-right: .5em;
+  margin-right: 1em;
 }
 
 .title>span {
@@ -474,7 +475,7 @@ div.content {
 
 .aceptarGuardar {
   text-align: right;
-  background: #2196f3;
+  background: var(--blue-color-principal);
   box-shadow: 0px 4px 5px 7px #b9b8b833;
   padding: 0.2em 1em 0.2em 1em;
   border-radius: 0.5em;
@@ -616,6 +617,7 @@ div.content {
   font-family: "Fira Code";
   padding-bottom: 0em !important;
   margin-bottom: 0em;
+  color: var(--blue-color-principal);
 }
 
 .fGSuperTitle {
@@ -623,7 +625,7 @@ div.content {
   padding-bottom: 0em !important;
   margin-bottom: 0em;
   text-align: center;
-  color: #2196f3;
+  color: var(--blue-color-principal);
 }
 
 .fGTitleData {
@@ -661,6 +663,7 @@ select.selectTyper {
   outline-color: #e1e1e1;
   appearance: none;
   -webkit-appearance: none !important;
+  background: white;
 }
 
 select option {
@@ -1148,16 +1151,16 @@ textarea::placeholder {
 
 #dropdown-menu {
   position: absolute;
-  top: 3.1em;
+  top: 2.1em;
   background: #ffffff;
   border-radius: 2em;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   min-width: 21em;
-  padding: .5em 0;
+  padding: .5em;
   z-index: 100;
-  padding: 1em;
+  z-index: 999;
 
   /* right: 3.5em; */
 
@@ -1177,7 +1180,7 @@ textarea::placeholder {
   transition: background 0.3s;
 
   display: flex;
-  border-radius: 1em;
+  border-radius: 2em;
 }
 
 .dropdown-menu {
@@ -1203,16 +1206,19 @@ textarea::placeholder {
 }
 
 .menu-item:hover {
-  background: #F9FAFB;
-  /* color: #3f7ef8; */
+  background: #efefef;
 }
 
 .icono-blue {
   color: #3f7ef8 !important;
 }
 
+.icono-green {
+  color: #2cb731 !important;
+}
+
 .icono-red {
-  color: #E1476A;
+  color: var(--red-color-principal) !important;
 }
 
 .back-icono {
@@ -1395,7 +1401,7 @@ screen and (max-width: 1024px) {
   }
 
   .acciones {
-    right: 8%;
+    right: 6%;
   }
 
   .pagination {
@@ -1470,7 +1476,7 @@ screen and (max-width: 640px) {
   }
 
   .acciones {
-    right: 7%;
+    right: 6%;
   }
 
   .encabezado {

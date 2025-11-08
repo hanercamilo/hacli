@@ -1,24 +1,24 @@
 var AlertJS = function (alertjs) {
     var preDomNotificationsTopStack = []; var preDomNotificationStack = []; var preDomAlertStack = []; var ready = false; var sounds = {
         error: {
-            mp3: "./sounds/warning.mp3",
-            ogg: "./sounds/warning.ogg",
-            wav: "./sounds/warning.wav"
+            mp3: "../sounds/warning.mp3",
+            ogg: "../sounds/warning.ogg",
+            wav: "../sounds/warning.wav"
         },
         info: {
-            mp3: "./sounds/info.mp3",
-            ogg: "./sounds/info.ogg",
-            wav: "./sounds/info.wav"
+            mp3: "../sounds/info.mp3",
+            ogg: "../sounds/info.ogg",
+            wav: "../sounds/info.wav"
         },
         warning: {
-            mp3: "./sounds/warning.mp3",
-            ogg: "./sounds/warning.ogg",
-            wav: "./sounds/warning.wav"
+            mp3: "../sounds/warning.mp3",
+            ogg: "../sounds/warning.ogg",
+            wav: "../sounds/warning.wav"
         },
         success: {
-            mp3: "./sounds/success.mp3",
-            ogg: "./sounds/success.ogg",
-            wav: "./sounds/success.wav"
+            mp3: "../sounds/success.mp3",
+            ogg: "../sounds/success.ogg",
+            wav: "../sounds/success.wav"
         }
     };
 
@@ -28,9 +28,9 @@ var AlertJS = function (alertjs) {
 
 var PlaySound = function () {
     var player = $("<audio />").attr("autoplay", "autoplay")
-        .append($("<source />").attr("src", "./sounds/clean.mp3").attr("type", "audio/mp3"))
-        .append($("<source />").attr("src", "./sounds/clean.ogg").attr("type", "audio/ogg"))
-        .append($("<embed />").attr("hidden", "true").attr("autostart", "true").attr("loop", "false").attr("src", "./sounds/clean.wav"));
+        .append($("<source />").attr("src", "../sounds/clean.mp3").attr("type", "audio/mp3"))
+        .append($("<source />").attr("src", "../sounds/clean.ogg").attr("type", "audio/ogg"))
+        .append($("<embed />").attr("hidden", "true").attr("autostart", "true").attr("loop", "false").attr("src", "../sounds/clean.wav"));
 
     $(".alertjs-audio-players").append(player);
     setTimeout(() => player.remove(), 5000);
